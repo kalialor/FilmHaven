@@ -20,3 +20,37 @@ export const Card = ({movie}) => {
         </div>
   )
 }
+
+
+
+
+/*
+const {id, original_title, overview, poster_path} = movie;
+is all found in the json file. so we put all that in a variable called
+movie.
+
+in this component we are creating the card component. we passed movie
+as a prop, destructured the json file, was able to use the properties from
+the json file, into jsx and in the url. 
+
+we also gave a dummy image file in case the poster image was not 
+available.
+
+
+
+https://image.tmdb.org/t/p/w500/
+this url is the url to the poster path
+anything after w500/ is the poster path
+
+poster_path is a property in the json file, so that's why it's in 
+the movie variable. 
+so ultimately, we are getting the movie image from the json file 
+from the url above. 
+
+
+
+poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : Logo;
+
+this says, if we have poster_path, then load the image from the url,
+else load Logo
+*/

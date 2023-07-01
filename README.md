@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Film Haven
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Film Haven is a movie database website project built using React and Tailwind. It provides users with various features, including searching for movies in the database and accessing information about popular, top-rated, and upcoming movies.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Movie Search**: Users can search for any movie within our extensive database. Simply enter the movie title in the search bar, and the website will display relevant results.
 
-### `npm start`
+- **Popular Movies**: Explore a collection of popular movies, showcasing trending and highly acclaimed films.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Top Rated Movies**: Access a curated list of top-rated movies, allowing you to discover critically acclaimed films.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Upcoming Movies**: Stay updated with the latest releases by browsing through upcoming movies, enabling you to plan your movie-watching schedule in advance.
 
-### `npm test`
+## Technology Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Film Haven is developed using the following technologies:
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces, providing a component-based approach to web development.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Tailwind**: A utility-first CSS framework that allows for quick and responsive styling of web components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What Did I Learn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+During the development of Film Haven, I learned these concepts:
 
-### `npm run eject`
+- React components: Learn how to create reusable components to build a modular and scalable application structure.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React hooks: Utilize hooks such as `useState`, `useEffect`, `useParams`, and custom hooks like `useFetch` to manage state, handle side effects, and interact with the API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Fetching data from an API: Retrieve movie data from an external API and dynamically render it on the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Routing: Implement navigation within the website using React Router to create different pages for popular movies, top-rated movies, search results, and more.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Error handling: Create a Page Not Found page to handle invalid routes or missing content.
 
-## Learn More
+- Tailwind concepts: Familiarized myself with the utility-first CSS approach and learn how to apply responsive styles to enhance the user interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Props: Understand the concept of passing data from parent components to child components using props, allowing for dynamic content rendering.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Next Goals
 
-### Code Splitting
+Moving forward, here are some potential next goals for Film Haven:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Converting the website into a mobile app to reach a wider audience and provide a more native experience.
 
-### Analyzing the Bundle Size
+- Adding geolocation features to enable users to find nearby theaters, view showtimes, and purchase tickets directly from the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Implementing user authentication and user profiles to allow users to save their favorite movies, write reviews, or create personalized watchlists.
 
-### Making a Progressive Web App
+- Integrating social features such as sharing movie recommendations, following other users, or participating in movie discussions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+These next goals can help enhance the functionality and user engagement of Film Haven, making it a comprehensive platform for movie enthusiasts.

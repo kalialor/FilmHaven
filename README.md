@@ -12,6 +12,8 @@ Film Haven is a movie database website project built using React and Tailwind. I
 
 - **Upcoming Movies**: Stay updated with the latest releases by browsing through upcoming movies, enabling you to plan your movie-watching schedule in advance.
 
+- **Light/Dark Mode Toggle**: Users can switch from light to dark mode.
+
 ## Technology Used
 
 Film Haven is developed using the following technologies:
@@ -37,6 +39,9 @@ During the development of Film Haven, I learned these concepts:
 - Tailwind concepts: Familiarized myself with the utility-first CSS approach and learn how to apply responsive styles to enhance the user interface.
 
 - Props: Understand the concept of passing data from parent components to child components using props, allowing for dynamic content rendering.
+
+- Light/Dark Mode: Created an effect to change from light to dark mode.
+
 
 ## Next Goals
 
